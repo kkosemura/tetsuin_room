@@ -1,0 +1,20 @@
+<footer class="d-flex justify-content-between m-5">
+    <div class="left">
+        <%= link_to root_path, data: { turbolinks: false } do %>
+          <% image_tag "tetsulogo.png", class: "img-fluid", width: "180px" %>
+        <% end %>
+        <p class="py-2" style="font-size: 12px; color: #ccc;">©2024 鉄印帳の旅に出よう All rights reserved.</p>
+        </div>
+    <div class="right text-left">
+        <p><%= link_to new_post_path, data: { turbolinks: false } do %>
+            <i class="bi bi-chat-left-text me-1"></i>
+            投稿一覧
+        <% end %></p>
+        
+　　　　<p><%= link_to new_post_path, data: { turbolinks: false } do %>
+            <i class="bi bi-chat-left-text me-1"></i>
+            道南いさりび鉄道
+        <% end %></p>
+    </div>
+  
+</footer>

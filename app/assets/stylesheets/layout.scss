@@ -9,11 +9,57 @@
 }
 
 .right a {
-  text-align: left;
-  color: black;
+  text-align: center;
+  color: green;
   text-decoration: none;
 }
 
 .right p {
   margin-bottom: 0;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+}
+
+h3 {
+  color: purple;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.box {
+  /* 上 | 右 | 下 | 左 */
+  padding: 10px 5px 10px 5px;
+}
+
+.global-nav {
+  text-align: center; /* 子のul要素に引き継がれて、中の.itemを中央寄せにする */
+}
+
+ /* global-navクラス内のitemクラスにだけスタイルを適用 */
+.global-nav .item {
+  display: inline-block;
+  width: 80px; /* 幅 */
+  padding: 10px; /* 要素の内側の余白 */
+  margin: 10px 0; /* 要素の外側の余白 */
+  background: yellowgreen;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+}
+
+li{
+  color: green;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
 }

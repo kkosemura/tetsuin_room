@@ -1,22 +1,106 @@
 <nav class="navbar navbar-expand-md bg-white shadow-sm">
-  <div class="container">
+  <div class="container-fluid">
+    
     <div class="w-100 d-flex justify-content-between align-items-center">
+      
       <div>
         <%= link_to root_path, data: { turbolinks: false } do %>
-          <% image_tag "tetsulogo.png", class: "img-fluid", width: "180px" %>
+          <% image_tag "tetsuinlogo4.png", class: "img-fluid", width: "180px" %>
         <% end %>
       </div>
-
+      
+      <!--<button class="navbar-toggler" -->
+      <!--        type="button" -->
+      <!--        class="btn-outline-sucess"-->
+      <!--        data-bs-toggle="collapse" -->
+      <!--        data-bs-target="#navbarSupportedContent" -->
+      <!--        aria-controls="navbarSupportedContent" -->
+      <!--        aria-expanded="false" -->
+      <!--        aria-label="Toggle navigation">-->
+      <!--  <span class="navbar-toggler-icon"></span>-->
+      <!--</button>-->
+       <h2 class="box">鉄印帳の旅に出よう！</h2>
+       <!--<a>鉄印をこよなく愛する仲間の情報サイト</a>-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!--<li class="nav-item">-->
+          <!--  <a class="nav-link active" aria-current="page" href="#">-->
+            
+          <!--  <%= link_to line_about_path, class: "btn btn-outline-success", data: { turbolinks: false } do %>-->
+          <!--  　<i class="bi bi-chat-left-text me-1"></i>-->
+          <!--  　道南いさりび鉄道-->
+          <!--　<% end %>-->
+          <!--  </a>-->
+          <!--</li>-->
+          <!--<li class="nav-item">-->
+          <!--  <u><a class="nav-link" class="btn btn-outline-success" href="https://tabiyomi.yomiuri-ryokou.co.jp/tetsuincho/">たびよみの鉄印帳サイト</a></u>-->
+            
+          <!--</li>-->
+          <li class="nav-item dropdown">
+            <!--<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+            <!--  路線検索-->
+            <!--</a>-->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"></a>
+          </li>
+        </ul>
+        <!--<form class="d-flex" role="search">-->
+        <!--  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
+        <!--  <button class="btn btn-outline-secondary" type="submit">検索-->
+        <!--  </button>-->
+        <!--</form>-->
+      </div>
+    </div>
+ 
+      
+      
       <div class="d-flex justify-content-end align-items-center">
         
-          <%= link_to new_post_path, class: "btn btn-purple me-2", data: { turbolinks: false } do %>
+          <%= link_to posts_path, class: "btn btn-purple me-2", data: { turbolinks: false } do %>
             <i class="bi bi-chat-left-text me-1"></i>
             投稿一覧
           <% end %>
-　　　　　<%= link_to new_post_path, class: "btn btn-purple me-2", data: { turbolinks: false } do %>
-            <i class="bi bi-chat-left-text me-1"></i>
-            道南いさりび鉄道
-          <% end %>
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+            
+            <%= link_to line_about_path, class: "btn btn-outline-success", data: { turbolinks: false } do %>
+            　<i class="bi bi-chat-left-text me-1"></i>
+            　道南いさりび鉄道
+          　<% end %>
+            </a>
+          </li>
+          
+　　　　　<!--<%= link_to line_about_path, class: "btn btn-purple me-2", data: { turbolinks: false } do %>-->
+     <!--       <i class="bi bi-chat-left-text me-1"></i>-->
+     <!--       道南いさりび鉄道-->
+     <!--     <% end %>-->
+          
+          <!--<%= link_to line_about_path, class: "btn btn-purple me-2", data: { turbolinks: false } do %>-->
+          <!--  <i class="bi bi-chat-left-text me-1"></i>-->
+          <!--    <form>-->
+          <!--      <label>路線名:</label>-->
+          <!--        <select>-->
+          <!--          <option value="isaribi">道南いさりび鉄道</option>-->
+          <!--          <option value="santeetsu">三陸鉄道</option>-->
+          <!--          <option value="iwate">いわて銀河鉄道</option>-->
+          <!--          <option value="akitanairiku">秋田内陸縦貫鉄道</option>-->
+          <!--          <option value="yurikogen">由利高原鉄道</option>-->
+          <!--          <option value="yanmagata">山形鉄道</option>-->
+          <!--          <option value="abukyu">阿武隈急行</option>-->
+          <!--          <option value="aizu">会津鉄道</option>-->
+          <!--          <option value="yagan">野岩鉄道</option>-->
+          <!--          <option value="watarase">わたらせ渓谷鐵道</option>-->
+          <!--        </select>-->
+          <!--    </form>-->
+          <!--<% end %>-->
           <%# image_tag current_user.avatar.url, class: "rounded-circle me-3", width: "50px", alt: "icon6" %>
 
           

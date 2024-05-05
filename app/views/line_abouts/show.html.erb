@@ -1,0 +1,173 @@
+<head>
+  <h1 class="box">①道南いさりび鉄道</h1>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <div>
+    
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6"><%= image_tag "isaribi17.png", class: "img-fluid", width: "180px" %></div>
+      
+      <div class="col-6">
+        <h3>走破人数　人</h3>
+        <h3>区間：五稜郭〜木古内</h3>
+        <h3>路線全長：37.8km</h3>
+        <h3>駅数：12駅</h3>
+      </div>
+      <div class="col-6">
+        <u><a href="https://www.shr-isaribi.jp/">道南いさりび鉄道HP</a></u>
+        <div class="flex-container">
+          <nav class='global-nav'>
+            <ul>
+              <li class='item'>FB</li>
+              <li class='item'>x</li>
+              <li class='item'>LINE</li>
+              <li class='item'>URL</li>
+              <li class='item'>NEWS</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="col-6"></div>
+      <div class="col-6"><p>道南いさりび鉄道は、北海道の南端を走る３７.８キロの第三セクター路線です。</p>
+                         <p>北海道新幹線の開業に伴い、函館市、北斗市、木古内町の出資により開業しました。</p>
+      </div>
+      
+      <div class="col-6">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+            
+             <%= link_to line_about_path, class: "btn btn-outline-primary", data: { turbolinks: false } do %>
+            　<i class="bi bi-chat-left-text me-1"></i>
+            　投稿画面
+          　 <% end %>
+            </a>
+        </li>
+      </div>
+    
+    </div>
+  </div>
+  <div>
+    <h2 class="box">
+      鉄印Q&A〜道南いさりび鉄道〜
+    </h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">Q1. 冬でも列車は動いているの？</div>
+      <div class="col-6">A. はい、ドカ雪で除雪車が動けなくならない限りは大丈夫です。ただし、木古内で駅から出られないぐらい積もる可能性はありますのでご注意を</div>
+      <div class="col-6">Q2. 鉄印をもらうのにどのぐらいの時間がかかるの？</div>
+      <div class="col-6">A. 書き置き印なのですぐに受け取れます。どこの駅でもそうですが、お釣りのないように小銭を準備しておきましょう</div>
+      <div class="col-6">Q3. 木古内駅で、食料は手配できるの？</div>
+      <div class="col-6">A. 道の駅「みそぎの郷きこない」がありますので、食料どころかお土産も買えます。地元の方の手作りバクダンおにぎりは最高でした！</div>
+    </div>
+  </div>
+  <!--<div class="card" style="width: 18rem;">-->
+  <!--    <img src="hp.jpeg" class="card-img-top" alt="...">-->
+  <!--    <h5 class="card-title">道南いさりび鉄道HP</h5>-->
+  <!--    <h6 class="card-subtitle">こちらからいさりび鉄道のHPへ行けます</h6>-->
+  <!--    <p class="card-text"></p>-->
+  <!--    <a href="https://www.shr-isaribi.jp/" class="card-link">道南いさりび鉄道HP</a>-->
+  <!--    <button class="btn btn-primary">ボタン</button>-->
+  <!--</div>-->
+<!--  <div id="carouselExample" class="carousel slide">-->
+  <!-- インジゲーター -->
+<!--  <div class="carousel-indicators">-->
+<!--    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>-->
+<!--    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>-->
+<!--    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
+<!--  </div>-->
+
+  <!-- スライド --> 
+<!--  <div class="carousel-inner">-->
+<!--    <div class="carousel-item active">-->
+<!--      <img src="image1.jpg" class="d-block w-100" alt="...">-->
+<!--    </div>-->
+<!--    <div class="carousel-item">-->
+<!--      <img src="image2.jpg" class="d-block w-100" alt="...">-->
+<!--    </div>-->
+<!--    <div class="carousel-item">-->
+<!--      <img src="image3.jpg" class="d-block w-100" alt="...">-->
+<!--    </div>-->
+<!--  </div>-->
+
+  <!-- 前後のコントロール-->
+<!--  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">-->
+<!--    <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--    <span class="visually-hidden">Previous</span>-->
+<!--  </button>-->
+<!--  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">-->
+<!--    <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--    <span class="visually-hidden">Next</span>-->
+<!--  </button>-->
+<!--</div>-->
+<!--<h2>てつたびニュース</h2>-->
+<!--<table class="table table-striped" class="table table-sm">-->
+<!--  <thead>-->
+<!--    <tr>-->
+<!--      <th scope="col">No.</th>-->
+<!--      <th scope="col">話題提供者</th>-->
+<!--      <th scope="col">テーマ</th>-->
+<!--      <th scope="col">路線名・駅名</th>-->
+<!--    </tr>-->
+<!--  </thead>-->
+<!--  <tbody>-->
+<!--    <tr>-->
+<!--      <th scope="row">1</th>-->
+<!--      <td>のと</td>-->
+<!--      <td>震災から4ヶ月</td>-->
+<!--      <td>のと鐵道</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--      <th scope="row">2</th>-->
+<!--      <td>@登山鉄道</td>-->
+<!--      <td>富士登山鐵道とは</td>-->
+<!--      <td>登山鉄道</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--      <th scope="row">3</th>-->
+<!--      <td>つるがん</td>-->
+<!--      <td>北陸新幹線延伸！</td>-->
+<!--      <td>北陸新幹線</td>-->
+<!--    </tr>-->
+<!--  </tbody>-->
+<!--</table>-->
+
+<!--<h2>てつたび投稿</h2>-->
+<!--<form>-->
+<!--  <div class="mb-3">-->
+<!--    <label for="exampleFormControlInput1" class="form-label">タイトル</label>-->
+<!--    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">-->
+<!--  </div>-->
+<!--  <div class="mb-3">-->
+<!--    <label for="exampleFormControlTextarea1" class="form-label"></label>-->
+<!--    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"> -->
+<!--    </textarea>-->
+<!--  </div>-->
+<!--</form>-->
+
+<!--<form>-->
+<!--  <div class="form-floating mb-3">-->
+<!--    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">-->
+<!--    <label for="floatingInput">Eメールアドレス</label>-->
+<!--  </div>-->
+<!--  <div class="form-floating">-->
+<!--    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">-->
+<!--    <label for="floatingPassword">パスワード</label>-->
+<!--  </div>-->
+<!--</form>-->
+<!--<h2>ログイン</h2>-->
+<!--<form class="needs-validation" novalidate>-->
+<!--  <label class="form-label" for="username">名前:</label>-->
+<!--  <input type="text" class="form-control" id="username" placeholder="Enter username" name="username" required>-->
+<!--  <label class="form-label" for="pwd">パスワード:</label>-->
+<!--  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>-->
+<!--  <button type="submit" class="btn btn-primary">Submit</button>-->
+<!--</form>-->
+<!--<i class="bi bi-search"></i>-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>

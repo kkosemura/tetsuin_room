@@ -50,6 +50,6 @@ test:
 #
 production:
   <<: *default
-  database: tetsuin_room_production
-  username: tetsuin_room
-  password: <%= ENV['TETSUIN_ROOM_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  url: <%= ENV['DATABASE_URL'] %>
